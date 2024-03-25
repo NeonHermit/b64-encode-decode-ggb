@@ -1,0 +1,6 @@
+# dir
+.idea/
+
+# files
+*.exe
+*.log
