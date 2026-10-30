@@ -3,13 +3,14 @@ package decoder
 import (
 	"bufio"
 	"encoding/base64"
-	"github.com/NeonHermit/b64-encode-decode-ggb/pkg/zipper"
-	"github.com/h2non/filetype"
-	"github.com/h2non/filetype/types"
 	"log"
 	"os"
 	"path/filepath"
 	"regexp"
+
+	"github.com/NeonHermit/b64-encode-decode-ggb/pkg/zipper"
+	"github.com/h2non/filetype"
+	"github.com/h2non/filetype/types"
 )
 
 // var base64Pattern = regexp.MustCompile(`(?m)(?:[^A-Za-z0-9+/=]|^)((?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?)(?:[^A-Za-z0-9+/=]|$)`)

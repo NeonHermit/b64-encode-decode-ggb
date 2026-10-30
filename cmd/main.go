@@ -2,13 +2,14 @@ package main
 
 import (
 	"flag"
+	"os"
+	"path/filepath"
+	"strings"
+
 	"github.com/NeonHermit/b64-encode-decode-ggb/pkg/decoder"
 	"github.com/NeonHermit/b64-encode-decode-ggb/pkg/encoder"
 	"github.com/NeonHermit/b64-encode-decode-ggb/pkg/logger"
 	"github.com/NeonHermit/b64-encode-decode-ggb/pkg/zipper"
-	"os"
-	"path/filepath"
-	"strings"
 )
 
 func main() {
